@@ -11,7 +11,7 @@ class NavigationLink extends React.Component
                 exact={true}
                 children={({ match }) => (
                     <LinkContainer exact to={this.props.link}>
-                        <li className={match ? "active" : ""}>
+                        <li className={match ? "transition active" : "transition"}>
                             <a>{this.props.value}</a>
                         </li>
                     </LinkContainer>

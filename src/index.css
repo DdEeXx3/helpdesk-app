@@ -1,3 +1,16 @@
-body {
-    background-color: white;
+@import './components/add-failure/add-failure.css';
+@import './components/failures-base/failures-base.css';
+@import './components/footer/footer.css';
+@import './components/home/home.css';
+@import './components/navigation/navigation.css';
+@import './components/categories/categories.css';
+
+.transition {
+    transition: 0.3s linear;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }

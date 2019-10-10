@@ -1,0 +1,15 @@
+.nav-logo {
+    float: right;
+    width: 110px;
+    margin: 5px 60px;
+}
+@media (max-width: 1068px) {
+    .nav-logo {
+    width: 104px;
+    margin: 4px 60px;} 
+}
+@media (max-width: 735px) {
+    .nav-logo {
+    width: 78px;
+    margin: 3px 60px;} 
+}

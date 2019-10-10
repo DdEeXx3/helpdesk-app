@@ -1,0 +1,52 @@
+.home-1-1 {
+    background-image: url('../../assets/images/home-1-1.png');
+}
+.home-1-2 {
+    background-image: url('../../assets/images/home-1-2.png');
+}
+.home-2-1 {
+    background-image: url('../../assets/images/home-2-1.png');
+}
+.home-2-2 {
+    background-image: url('../../assets/images/home-2-2.png');
+}
+.home-3-1 {
+    background-image: url('../../assets/images/home-3-1.png');
+}
+.home-3-2 {
+    background-image: url('../../assets/images/home-3-2.png');
+}
+
+.category-block {
+    height: 0;
+    padding: 0; /* remove any pre-existing padding, just in case */
+    padding-bottom: calc(2/3 * 100%); /* for a 2:3 aspect ratio */
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.category-block:hover {
+    background-color: #25AE88;
+    background-image: none;
+    transition: 0.5s linear;
+    cursor: pointer;
+}
+
+.category-block:hover .category-box {
+    display: block;
+}
+
+.category-box {
+    display: none;
+}
+
+.category-name {
+    color: white;
+}
+
+.search-input {
+    box-sizing: border-box;
+    margin-right: 10% !important;
+    margin-left: 10% !important;
+}
