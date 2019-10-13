@@ -43,8 +43,8 @@ const categoryDetails= [
     {
         imageCode: "home-3-2",
         image: gauge,
-        name: "LICZNIKI",
-        link: "counters"
+        name: "MEDIA",
+        link: "media"
     }
 ];
 

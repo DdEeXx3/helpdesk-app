@@ -3,8 +3,12 @@ import {LinkContainer} from 'react-router-bootstrap';
 
 class CategoryBlock extends React.Component {
     render() {
+        var categoryLink = window.location.pathname;
+        if (this.props.category.link) {
+            categoryLink = `/${this.props.category.link}`;
+        }
         return (
-            <LinkContainer to={`/${this.props.category.link}`}>
+            <LinkContainer to={categoryLink}>
                 <div className={"shadow category-block button-small-radius " + this.props.category.imageCode + " col-lg-6 col-md-6 col-sm-6"}>
                     <div className="category-box text-center">
                         <img className="width-35percent padding-top-5percent" src={this.props.category.image}></img>

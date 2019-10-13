@@ -1,0 +1,92 @@
+{
+    "porady": [
+        {
+            "id": 1,
+            "tytuł": "Woda w umywalce nie odpływa",
+            "kategoria": "łazienka",
+            "podkategoria": "umywalka",
+            "ocenyPozytywne": 40,
+            "ocenyNegatywne": 12,
+            "kroki": [
+                {
+                    "id": 1,
+                    "tekst": "cos tam cos tam"
+                },
+                {
+                    "id": 2,
+                    "tekst": "cos tam cos tam"
+                },
+                {
+                    "id": 3,
+                    "tekst": "cos tam cos tam"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "tytuł": "Ze zlewu w kuchni wydobywa się nieprzyjemny zapach",
+            "kategoria": "kuchnia",
+            "podkategoria": "zlew",
+            "ocenyPozytywne": 10,
+            "ocenyNegatywne": 2,
+            "kroki": [
+                {
+                    "id": 1,
+                    "tekst": "cos tam cos tam"
+                },
+                {
+                    "id": 2,
+                    "tekst": "cos tam cos tam"
+                },
+                {
+                    "id": 3,
+                    "tekst": "cos tam cos tam"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "tytuł": "Moja prostownica wydaje dziwne dźwięki",
+            "kategoria": "elektronika",
+            "podkategoria": "inne",
+            "ocenyPozytywne": 23,
+            "ocenyNegatywne": 12,
+            "kroki": [
+                {
+                    "id": 1,
+                    "tekst": "cos tam cos tam"
+                },
+                {
+                    "id": 2,
+                    "tekst": "cos tam cos tam"
+                },
+                {
+                    "id": 3,
+                    "tekst": "cos tam cos tam"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "tytuł": "Tapeta mi się odkleja",
+            "kategoria": "remont",
+            "podkategoria": "tapetowanie",
+            "ocenyPozytywne": 23,
+            "ocenyNegatywne": 12,
+            "kroki": [
+                {
+                    "id": 1,
+                    "tekst": "cos tam cos tam"
+                },
+                {
+                    "id": 2,
+                    "tekst": "cos tam cos tam"
+                },
+                {
+                    "id": 3,
+                    "tekst": "cos tam cos tam"
+                }
+            ]
+        }
+    ]
+}

@@ -2,52 +2,52 @@ import React from 'react';
 import CategoryHeader from '../catgory-header';
 import CategoryContainer from '../../home/category-container';
 
-import drill from '../../../assets/images/renovation/drill.png';
-import paint from '../../../assets/images/renovation/paint.png';
-import tiles from '../../../assets/images/renovation/tiles.png';
-import wallpaper from '../../../assets/images/renovation/wallpaper.png';
-import tools from '../../../assets/images/renovation/tools.png';
+import airConditioner from '../../../assets/images/media/air-conditioner.png';
+import internet from '../../../assets/images/media/internet.png';
+import light from '../../../assets/images/media/light.png';
+import tap from '../../../assets/images/media/tap.png';
+import valve from '../../../assets/images/media/valve.png';
 import more from '../../../assets/images/more.png';
 import BackButton from '../back-button';
 
 const categoryDetails= [
     {
-        imageCode: "renovation-background-1-1",
-        image: paint,
-        name: "MALOWANIE"
+        imageCode: "media-background-1-1",
+        image: light,
+        name: "PRĄD"
     },
     {
-        imageCode: "renovation-background-1-2",
-        image: wallpaper,
-        name: "TAPETOWANIE"
+        imageCode: "media-background-1-2",
+        image: tap,
+        name: "WODA"
     },
     {
-        imageCode: "renovation-background-2-1",
-        image: tiles,
-        name: "KAFELKOWANIE"
+        imageCode: "media-background-2-1",
+        image: valve,
+        name: "GAZ"
     },
     {
-        imageCode: "renovation-background-2-2",
-        image: drill,
-        name: "MONTAŻ"
+        imageCode: "media-background-2-2",
+        image: airConditioner,
+        name: "TEMPERATURA"
     },
     {
-        imageCode: "renovation-background-3-1",
-        image: tools,
-        name: "WYKOŃCZENIE"
+        imageCode: "media-background-3-1",
+        image: internet,
+        name: "INTERNET"
     },
     {
-        imageCode: "renovation-background-3-2",
+        imageCode: "media-background-3-2",
         image: more,
         name: "INNE"
     }
 ];
 
-class Renovation extends React.Component {
+class Media extends React.Component {
     render() {
         return (
             <div className="container">
-                <CategoryHeader categoryName="REMONT"/>
+                <CategoryHeader categoryName="MEDIA"/>
                 <div className="col-lg-2 col-md-1 col-sm-12"></div>
                 <div className="container col-lg-8 col-md-10 col-sm-12">
                     <CategoryContainer categoryDetails = {categoryDetails} />
@@ -61,4 +61,4 @@ class Renovation extends React.Component {
     }
 }
 
-export default Renovation;
+export default Media;
