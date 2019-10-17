@@ -71,8 +71,30 @@
             "tytuł": "Tapeta mi się odkleja",
             "kategoria": "remont",
             "podkategoria": "tapetowanie",
-            "ocenyPozytywne": 23,
-            "ocenyNegatywne": 12,
+            "ocenyPozytywne": 11,
+            "ocenyNegatywne": 42,
+            "kroki": [
+                {
+                    "id": 1,
+                    "tekst": "cos tam cos tam"
+                },
+                {
+                    "id": 2,
+                    "tekst": "cos tam cos tam"
+                },
+                {
+                    "id": 3,
+                    "tekst": "cos tam cos tam"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "tytuł": "Pod tapetą robią się bąble",
+            "kategoria": "remont",
+            "podkategoria": "tapetowanie",
+            "ocenyPozytywne": 33,
+            "ocenyNegatywne": 1,
             "kroki": [
                 {
                     "id": 1,

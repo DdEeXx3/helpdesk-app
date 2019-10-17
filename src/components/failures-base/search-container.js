@@ -2,7 +2,7 @@ import React from 'react';
 import FilterBox from './filter-box';
 import SearchBox from './search-box';
 import {connect} from 'react-redux';
-import {showSearchBox, showFilterBox} from '../../redux/actions/tips';
+import {showSearchBox, showFilterBox, handleSearch} from '../../redux/actions/tips';
 
 class SearchContainer extends React.Component {
     render() {
@@ -10,7 +10,7 @@ class SearchContainer extends React.Component {
             <div className="shadow margin-40px button-small-radius container col-lg-12 col-md-12 col-sm-12">
                 <div className="col-lg-2 col-md-1 col-sm-12"></div>
                 <div className="margin-top-20px margin-bottom-20px col-lg-8 col-md-10 col-sm-12">
-                    <input type="text" className="search-input input-medium-80 input-style2-secondary input-small-radius" placeholder="Wyszukaj problem..."></input>
+                    <input type="text" className="search-input input-medium-80 input-style2-secondary input-small-radius" placeholder="Wyszukaj problem..." onChange={(e) => this.props.handleSearch(e)} value={this.props.tips.searchValue}></input>
                 </div>
                 <div className="col-lg-2 col-md-1 col-sm-12"></div>
                 <div className="col-lg-2 col-md-1 col-sm-12"></div>
@@ -36,7 +36,8 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
     showFilterBox: () => dispatch(showFilterBox()),
-    showSearchBox: () => dispatch(showSearchBox())
+    showSearchBox: () => dispatch(showSearchBox()),
+    handleSearch: (e) => dispatch(handleSearch(e))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(SearchContainer);

@@ -67,3 +67,15 @@ input:checked + .slider:before {
 .filter-search-active {
     color: #25AE88;
 }
+
+.error-message {
+    color: white;
+}
+
+.error-message-hidden {
+    display: none;
+}
+
+.fa-thumbs-up {
+    transform: scaleX(-1);
+}

@@ -11,7 +11,7 @@ class SubcategoryChecks extends React.Component {
                 </div>
                 <div className="text-left col-lg-4 col-md-4 col-sm-4">
                     <label className="switch">
-                        <input type="radio" name={this.props.section} value={this.props.subcategory} onChange = {() => this.props.handleCurrentSubcategory(this.props.subcategory)}></input>
+                        <input id={`subcategory-radio-${this.props.id}`}type="radio" name={this.props.section} value={this.props.subcategory} onChange = {() => this.props.handleCurrentSubcategory(this.props.subcategory)} onClick={() => this.props.checkSubcategoryRadio(this.props.id)}></input>
                         <span className="slider round"></span>
                     </label>
                 </div>

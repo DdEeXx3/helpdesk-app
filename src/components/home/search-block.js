@@ -1,4 +1,8 @@
 import React from 'react';
+import {connect} from 'react-redux';
+import {handleSearch} from '../../redux/actions/tips';
+import {LinkContainer} from 'react-router-bootstrap';
+
 
 class SearchBlock extends React.Component {
     render() {
@@ -11,18 +15,20 @@ class SearchBlock extends React.Component {
                 <div className="col-lg-1 col-md-1 col-sm-1"></div>
                 <div className="col-lg-2 col-md-1 col-sm-12"></div>
                 <div className="col-lg-8 col-md-10 col-sm-12">
-                    <input type="text" className="search-input input-medium-80 input-style2-secondary input-medium-radius" placeholder="Wpisz co się dzieje..."></input>
+                    <input type="text" className="search-input input-medium-80 input-style2-secondary input-medium-radius" placeholder="Wpisz co się dzieje..." onChange={(e) => this.props.handleSearch(e)}></input>
                 </div>
                 <div className="col-lg-2 col-md-1 col-sm-12"></div>
                 <div className="col-lg-4 col-md-3 col-sm-2"></div>
                 <div className="text-center col-lg-4 col-md-6 col-sm-8">
-                    <button className="button-medium button-small-radius button-teritary button-hover-right">
-                        <span>
-                            <i className="padding-right-10px fas fa-search"></i>
-                            <span>SZUKAJ</span>
-                            <i class="padding-left-10px fas fa-chevron-right"></i>
-                        </span>
-                    </button>
+                    <LinkContainer to="/failures-base">
+                        <button className="button-medium button-small-radius button-teritary button-hover-right">
+                            <span>
+                                <i className="padding-right-10px fas fa-search"></i>
+                                <span>SZUKAJ</span>
+                                <i class="padding-left-10px fas fa-chevron-right"></i>
+                            </span>
+                        </button>
+                    </LinkContainer>
                 </div>
                 <div className="col-lg-4 col-md-3 col-sm-2"></div>
             </div>
@@ -30,4 +36,12 @@ class SearchBlock extends React.Component {
     }
 }
 
-export default SearchBlock;
+const mapStateToProps = state => ({
+    tips: state.tips
+});
+
+const mapDispatchToProps = dispatch => ({
+    handleSearch: (e) => dispatch(handleSearch(e))
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(SearchBlock);
