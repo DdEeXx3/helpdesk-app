@@ -14,32 +14,38 @@ const categoryDetails= [
     {
         imageCode: "kitchen-background-1-1",
         image: fridge,
-        name: "LODÓWKA"
+        name: "LODÓWKA",
+        link: "kuchnia/lodówka"
     },
     {
         imageCode: "kitchen-background-1-2",
         image: oven,
-        name: "KUCHENKA"
+        name: "KUCHENKA",
+        link: "kuchnia/kuchenka"
     },
     {
         imageCode: "kitchen-background-2-1",
         image: dishwasher,
-        name: "ZMYWARKA"
+        name: "ZMYWARKA",
+        link: "kuchnia/zmywarka"
     },
     {
         imageCode: "kitchen-background-2-2",
         image: microwave,
-        name: "MIKROFALÓWKA"
+        name: "MIKROFALÓWKA",
+        link: "kuchnia/mikrofalówka"
     },
     {
         imageCode: "kitchen-background-3-1",
         image: faucet,
-        name: "ZLEW"
+        name: "ZLEW",
+        link: "kuchnia/zlew"
     },
     {
         imageCode: "kitchen-background-3-2",
         image: more,
-        name: "INNE"
+        name: "INNE",
+        link: "kuchnia/inne"
     }
 ];
 

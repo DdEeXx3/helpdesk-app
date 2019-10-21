@@ -1,6 +1,6 @@
 import React from 'react';
 
-class RatingBox extends React.Component {
+class SubcategoryRatingBox extends React.Component {
 
     constructor(props) {
         super(props);
@@ -43,9 +43,6 @@ class RatingBox extends React.Component {
     render() {
         return (
             <div className="width-100percent text-center margin-top-auto margin-bottom-auto container col-lg-12 col-md-12 col-sm-12">
-                <div className="col-lg-4 col-md-4 col-sm-4"></div>
-                <button className="button-small button-teritary button-small-radius button-hover-right col-lg-4 col-md-4 col-sm-4">Zobacz ></button>
-                <div className="col-lg-4 col-md-4 col-sm-4"></div>
                 <h5 className="col-lg-12 col-md-12 col-sm-12 margin-top-10px">OCENA:</h5>
                 <div className="container col-lg-12 col-md-12 col-sm-12">
                     <div className="text-right margin-20percent col-lg-2 col-md-2 col-sm-2">
@@ -63,4 +60,4 @@ class RatingBox extends React.Component {
     }
 }
 
-export default RatingBox;
+export default SubcategoryRatingBox;

@@ -14,32 +14,38 @@ const categoryDetails= [
     {
         imageCode: "furnishings-background-1-1",
         image: armchair,
-        name: "MEBLE TAPICEROWANE"
+        name: "MEBLE TAPICEROWANE",
+        link: "wyposażenie/meble_tapicerowane"
     },
     {
         imageCode: "furnishings-background-1-2",
         image: wardrobe,
-        name: "MEBLE DREWNIANE"
+        name: "MEBLE DREWNIANE",
+        link: "wyposażenie/meble_drewniane"
     },
     {
         imageCode: "furnishings-background-2-1",
         image: bed,
-        name: "ŁÓŻKA"
+        name: "ŁÓŻKA",
+        link: "wyposażenie/łóżka"
     },
     {
         imageCode: "furnishings-background-2-2",
         image: lamp,
-        name: "OŚWIETLENIE"
+        name: "OŚWIETLENIE",
+        link: "wyposażenie/oświetlenie"
     },
     {
         imageCode: "furnishings-background-3-1",
         image: carpet,
-        name: "DEKORACJE"
+        name: "DEKORACJE",
+        link: "wyposażenie/dekoracje"
     },
     {
         imageCode: "furnishings-background-3-2",
         image: more,
-        name: "INNE"
+        name: "INNE",
+        link: "wyposażenie/inne"
     }
 ];
 

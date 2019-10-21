@@ -14,32 +14,38 @@ const categoryDetails= [
     {
         imageCode: "renovation-background-1-1",
         image: paint,
-        name: "MALOWANIE"
+        name: "MALOWANIE",
+        link: "remont/malowanie"
     },
     {
         imageCode: "renovation-background-1-2",
         image: wallpaper,
-        name: "TAPETOWANIE"
+        name: "TAPETOWANIE",
+        link: "remont/tapetowanie"
     },
     {
         imageCode: "renovation-background-2-1",
         image: tiles,
-        name: "KAFELKOWANIE"
+        name: "KAFELKOWANIE",
+        link: "remont/kafelkowanie"
     },
     {
         imageCode: "renovation-background-2-2",
         image: drill,
-        name: "MONTAŻ"
+        name: "MONTAŻ",
+        link: "remont/montaż"
     },
     {
         imageCode: "renovation-background-3-1",
         image: tools,
-        name: "WYKOŃCZENIE"
+        name: "WYKOŃCZENIE",
+        link: "remont/wykończenie"
     },
     {
         imageCode: "renovation-background-3-2",
         image: more,
-        name: "INNE"
+        name: "INNE",
+        link: "remont/inne"
     }
 ];
 

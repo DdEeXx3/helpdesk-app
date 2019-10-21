@@ -11,6 +11,7 @@ import Electronics from './components/categories/electronics/electronics';
 import Furnishings from './components/categories/furnishings/furnishings';
 import Kitchen from './components/categories/kitchen/kitchen';
 import Renovation from './components/categories/renovation/renovation';
+import SubcategoryTips from './components/subcategory-tips/subcategory-tips';
 
 function App() {
   return (
@@ -21,12 +22,13 @@ function App() {
             <Route path="/" exact component={Home} />
             <Route path="/failures-base" component={FailuresBase} />
             <Route path="/add-failure" component={AddFailure} />
-            <Route path="/bathroom" component={Bathroom} />
-            <Route path="/media" component={Media} />
-            <Route path="/electronics" component={Electronics} />
-            <Route path="/furnishings" component={Furnishings} />
-            <Route path="/kitchen" component={Kitchen} />
-            <Route path="/renovation" component={Renovation} />
+            <Route path="/łazienka" exact component={Bathroom} />
+            <Route path="/media" exact component={Media} />
+            <Route path="/elektronika" exact component={Electronics} />
+            <Route path="/wyposażenie" exact component={Furnishings} />
+            <Route path="/kuchnia" exact component={Kitchen} />
+            <Route path="/remont" exact component={Renovation} />
+            <Route path="/:category/:subcategory" component={SubcategoryTips} />
           </Switch>
           <Footer />
       </div>

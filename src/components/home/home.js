@@ -14,31 +14,31 @@ const categoryDetails= [
         imageCode: "home-1-1",
         image: homeTheater,
         name: "ELEKTRONIKA",
-        link: "electronics",
+        link: "elektronika",
     },
     {
         imageCode: "home-1-2",
         image: sofa,
         name: "WYPOSAŻENIE",
-        link: "furnishings"
+        link: "wyposażenie"
     },
     {
         imageCode: "home-2-1",
         image: bathtub,
         name: "ŁAZIENKA",
-        link: "bathroom"
+        link: "łazienka"
     },
     {
         imageCode: "home-2-2",
         image: stove,
         name: "KUCHNIA",
-        link: "kitchen"
+        link: "kuchnia"
     },
     {
         imageCode: "home-3-1",
         image: paintRoller,
         name: "REMONT",
-        link: "renovation"
+        link: "remont"
     },
     {
         imageCode: "home-3-2",

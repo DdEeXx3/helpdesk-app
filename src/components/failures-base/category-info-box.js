@@ -62,7 +62,7 @@ class CategoryInfoBox extends React.Component {
 
     subcategoryIconMatch = () => {
         switch(this.props.tipInfo.podkategoria) {
-            case "telewizor_i_rtv":
+            case "telewizja_i_rtv":
                 return tv;
             case "komputer":
                 return laptop;
@@ -150,7 +150,7 @@ class CategoryInfoBox extends React.Component {
                 </div>
                 <div className="col-lg-2 col-md-2 col-sm-2"></div>
                 <div className="text-center col-lg-2 col-md-4 col-sm-4">
-                    <h5>{this.props.tipInfo.podkategoria.toUpperCase()}</h5>
+                    <h5>{this.props.tipInfo.podkategoria.toUpperCase().replace(/_/g, " ")}</h5>
                 </div>
                 <div className="col-lg-5 col-md-1 col-sm-1"></div>
             </div>

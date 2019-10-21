@@ -5,6 +5,7 @@ import TipContainer from './tip-container';
 import SearchContainer from './search-container';
 
 class FailuresBase extends React.Component {
+    
     constructor(props) {
         super(props);
         this.props.fetchData(this.props.tips.searchValue);

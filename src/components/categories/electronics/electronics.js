@@ -14,32 +14,39 @@ const categoryDetails= [
     {
         imageCode: "electronics-background-1-1",
         image: tv,
-        name: "TELEWIZOR I RTV"
+        name: "TELEWIZJA I RTV",
+        link: "elektronika/telewizja_i_rtv"
+        
     },
     {
         imageCode: "electronics-background-1-2",
         image: laptop,
-        name: "KOMPUTER"
+        name: "KOMPUTER",
+        link: "elektronika/komputer"
     },
     {
         imageCode: "electronics-background-2-1",
         image: speaker,
-        name: "AUDIO"
+        name: "AUDIO",
+        link: "elektronika/audio"
     },
     {
         imageCode: "electronics-background-2-2",
         image: vacuumCleaner,
-        name: "DUŻE AGD"
+        name: "DUŻE AGD",
+        link: "elektronika/duże_agd"
     },
     {
         imageCode: "electronics-background-3-1",
         image: iron,
-        name: "MAŁE AGD"
+        name: "MAŁE AGD",
+        link: "elektronika/małe_agd"
     },
     {
         imageCode: "electronics-background-3-2",
         image: more,
-        name: "INNE"
+        name: "INNE",
+        link: "elektronika/inne"
     }
 ];
 

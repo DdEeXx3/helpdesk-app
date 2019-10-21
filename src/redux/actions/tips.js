@@ -87,6 +87,9 @@ const handleCurrentSubcategoryAction = (subcategory) => {
 
 export const handleCurrentSubcategory = (subcategory) => {
     return (dispatch, getState) => {
+        if (subcategory === "prysznic_/_wanna") {
+            subcategory = "prysznic_wanna";
+        }
         dispatch(handleCurrentSubcategoryAction(subcategory));
         dispatch(filter(getState().tips.searchValue, getState().tips.currentCategory, subcategory));
     }

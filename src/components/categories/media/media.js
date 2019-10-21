@@ -14,32 +14,38 @@ const categoryDetails= [
     {
         imageCode: "media-background-1-1",
         image: light,
-        name: "PRĄD"
+        name: "PRĄD",
+        link: "media/prąd"
     },
     {
         imageCode: "media-background-1-2",
         image: tap,
-        name: "WODA"
+        name: "WODA",
+        link: "media/woda"
     },
     {
         imageCode: "media-background-2-1",
         image: valve,
-        name: "GAZ"
+        name: "GAZ",
+        link: "media/gaz"
     },
     {
         imageCode: "media-background-2-2",
         image: airConditioner,
-        name: "TEMPERATURA"
+        name: "TEMPERATURA",
+        link: "media/temperatura"
     },
     {
         imageCode: "media-background-3-1",
         image: internet,
-        name: "INTERNET"
+        name: "INTERNET",
+        link: "media/internet"
     },
     {
         imageCode: "media-background-3-2",
         image: more,
-        name: "INNE"
+        name: "INNE",
+        link: "media/inne"
     }
 ];
 

@@ -14,32 +14,38 @@ const categoryDetails= [
     {
         imageCode: "bathroom-background-1-1",
         image: toilet,
-        name: "TOALETA"
+        name: "TOALETA",
+        link: "łazienka/toaleta"
     },
     {
         imageCode: "bathroom-background-1-2",
         image: washBasin,
-        name: "UMYWALKA"
+        name: "UMYWALKA",
+        link: 'łazienka/umywalka'
     },
     {
         imageCode: "bathroom-background-2-1",
         image: shower,
-        name: "PRYSZNIC/WANNA"
+        name: "PRYSZNIC/WANNA",
+        link: 'łazienka/prysznic_wanna'
     },
     {
         imageCode: "bathroom-background-2-2",
         image: washingMachine,
-        name: "PRALKA"
+        name: "PRALKA",
+        link: 'łazienka/pralka'
     },
     {
         imageCode: "bathroom-background-3-1",
         image: pipe,
-        name: "RURY"
+        name: "RURY",
+        link: 'łazienka/rury'
     },
     {
         imageCode: "bathroom-background-3-2",
         image: more,
-        name: "INNE"
+        name: "INNE",
+        link: 'łazienka/inne'
     }
 ];
 
