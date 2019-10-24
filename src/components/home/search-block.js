@@ -15,7 +15,7 @@ class SearchBlock extends React.Component {
                 <div className="col-lg-1 col-md-1 col-sm-1"></div>
                 <div className="col-lg-2 col-md-1 col-sm-12"></div>
                 <div className="col-lg-8 col-md-10 col-sm-12">
-                    <input type="text" className="search-input input-medium-80 input-style2-secondary input-medium-radius" placeholder="Wpisz co się dzieje..." onChange={(e) => this.props.handleSearch(e)}></input>
+                    <input type="text" className="search-input input-medium-80 input-style2-secondary input-small-radius" placeholder="Wpisz co się dzieje..." onChange={(e) => this.props.handleSearch(e)}></input>
                 </div>
                 <div className="col-lg-2 col-md-1 col-sm-12"></div>
                 <div className="col-lg-4 col-md-3 col-sm-2"></div>
