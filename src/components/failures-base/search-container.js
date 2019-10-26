@@ -2,9 +2,11 @@ import React from 'react';
 import FilterBox from './filter-box';
 import SearchBox from './search-box';
 import {connect} from 'react-redux';
-import {showSearchBox, showFilterBox, handleSearch} from '../../redux/actions/tips';
+import {showSearchBox, showFilterBox, handleSearch, filter} from '../../redux/actions/tips';
+
 
 class SearchContainer extends React.Component {
+
     render() {
         return (
             <div className="shadow margin-40px button-small-radius container col-lg-12 col-md-12 col-sm-12">

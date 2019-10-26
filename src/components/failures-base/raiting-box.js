@@ -1,4 +1,5 @@
 import React from 'react';
+import {LinkContainer} from 'react-router-bootstrap';
 
 class RatingBox extends React.Component {
 
@@ -44,7 +45,7 @@ class RatingBox extends React.Component {
         return (
             <div className="width-100percent text-center margin-top-auto margin-bottom-auto container col-lg-12 col-md-12 col-sm-12">
                 <div className="col-lg-4 col-md-4 col-sm-4"></div>
-                <button className="button-small button-teritary button-small-radius button-hover-right col-lg-4 col-md-4 col-sm-4">Zobacz ></button>
+                <LinkContainer to="/tip-detail"><button className="button-small button-teritary button-small-radius button-hover-right col-lg-4 col-md-4 col-sm-4">Zobacz ></button></LinkContainer>
                 <div className="col-lg-4 col-md-4 col-sm-4"></div>
                 <h5 className="col-lg-12 col-md-12 col-sm-12 margin-top-10px">OCENA:</h5>
                 <div className="container col-lg-12 col-md-12 col-sm-12">

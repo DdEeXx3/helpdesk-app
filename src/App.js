@@ -12,6 +12,7 @@ import Furnishings from './components/categories/furnishings/furnishings';
 import Kitchen from './components/categories/kitchen/kitchen';
 import Renovation from './components/categories/renovation/renovation';
 import SubcategoryTips from './components/subcategory-tips/subcategory-tips';
+import TipStepper from './components/tip-stepper.js/tip-stepper';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/kuchnia" exact component={Kitchen} />
             <Route path="/remont" exact component={Renovation} />
             <Route path="/:category/:subcategory" component={SubcategoryTips} />
+            <Route path="/tip-detail" component={TipStepper} />
           </Switch>
           <Footer />
       </div>

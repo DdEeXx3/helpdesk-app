@@ -1,3 +1,5 @@
+import Swal from 'sweetalert2';
+
 //CONNECT WITH DATABASE:
 export const fetchData = (search = '') => {
     return dispatch => {
@@ -255,3 +257,50 @@ export const clearSortOptions = () => {
     }
 }
 
+//RATE TIP:
+export const rateUp = (ratesUp, id) => {
+    return (dispatch) => {
+        const rate = ratesUp + 1;
+        fetch(`http://localhost:3004/porady/${id}`, {
+            method: 'PATCH',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                ocenyPozytywne: rate
+            })
+        });
+        dispatch(() => rateAlert());
+    }
+}
+
+export const rateDown = (ratesDown, id) => {
+    return (dispatch) => {
+        const rate = ratesDown + 1;
+        fetch(`http://localhost:3004/porady/${id}`, {
+            method: 'PATCH',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                ocenyNegatywne: rate
+            })
+        });
+        dispatch(() => rateAlert());
+    }
+}
+
+const rateAlert = () => {
+    Swal.fire({
+        position: 'middle-center',
+        type: 'success',
+        title: 'Dziekujemy za ocenę!',
+        showConfirmButton: false,
+        timer: 2000
+    });
+    setTimeout(function () {
+        window.history.back()
+    }, 2000);
+}

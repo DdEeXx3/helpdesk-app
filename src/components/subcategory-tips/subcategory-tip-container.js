@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {getCurrentTip} from '../../redux/actions/tips';
 import SubcategoryRatingBox from './subcategory-rating-box';
+import {LinkContainer} from 'react-router-bootstrap';
 
 class SubcategoryTipContainer extends React.Component {
 
@@ -14,7 +15,7 @@ class SubcategoryTipContainer extends React.Component {
                     </div>
                     <div className="col-lg-5 col-md-4 col-sm-4"></div>
                     <div className="margin-bottom-10px text-center col-lg-2 col-md-4 col-sm-4">
-                        <button className="button-small button-teritary button-small-radius button-hover-right">Zobacz ></button>
+                        <LinkContainer to="/tip-detail"><button className="button-small button-teritary button-small-radius button-hover-right">Zobacz ></button></LinkContainer>
                     </div>
                     <div className="col-lg-5 col-md-4 col-sm-4"></div>
                 </div>

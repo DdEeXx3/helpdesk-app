@@ -1,0 +1,171 @@
+ol.progtrckr {
+    margin-left: -1.4em;
+}
+
+ol.progtrckr {
+    list-style-type: none;
+    padding: 0;
+}
+  
+ol.progtrckr li {
+    display: inline-block;
+    text-align: center;
+    line-height: 4.5rem;
+    cursor: pointer;
+}
+  
+ol.progtrckr li span {
+    padding: 0 1.5rem;
+}
+  
+@media screen and (max-width: 735px) {
+    .progtrckr li span {
+        display: none;
+    }
+
+    .progtrckr em {
+        display: none;
+      }
+    
+    /* ol.progtrckr li.progtrckr-todo:before {
+        margin-left: 0.2em;
+        width: 1.2em;
+        line-height: 1.4em;
+    }
+
+    ol.progtrckr li.progtrckr-doing:before {
+        margin-left: 0.25em;
+        margin-top: 0.05em;
+        width: 0.5em;
+        line-height: 1.1em;
+        border-radius: 1.1em;
+    }
+
+    ol.progtrckr li.progtrckr-done:before {
+
+    } */
+    
+}
+.progtrckr em {
+    display: none;
+    font-weight: 700;
+    /* padding-left: 1rem; */
+}
+  
+ol.progtrckr li.progtrckr-todo {
+    color: #8a94b1;
+    border-bottom: 4px solid #8a94b1;
+}
+  
+ol.progtrckr li.progtrckr-doing {
+    color: #556080;
+    border-bottom: 4px solid #556080;
+}
+  
+ol.progtrckr li.progtrckr-done {
+    color: #25AE88;
+    border-bottom: 4px solid #25AE88;
+}
+  
+ol.progtrckr li:after {
+    content: "\00a0\00a0";
+}
+  
+ol.progtrckr li:before {
+    position: relative;
+    bottom: -4.25rem;
+    float: left;
+    left: 100%;
+}
+  
+ol.progtrckr li.progtrckr-todo:before {
+    content: "\039F";
+    color: #8a94b1;
+    background-color: white;
+    margin-left: 0.2em;
+    width: 1.2em;
+    line-height: 1.4em;
+}
+  
+ol.progtrckr li.progtrckr-todo:hover:before {
+    color: #25AE88;
+}
+  
+ol.progtrckr li.progtrckr-doing:before {
+    content: "\2022";
+    color: white;
+    background-color: #8a94b1;
+    margin-left: 0.25em;
+    margin-top: 0.05em;
+    width: 1.1em;
+    line-height: 1.1em;
+    border-radius: 1.1em;
+}
+  
+ol.progtrckr li.progtrckr-doing:hover:before {
+    color: #25AE88;
+}
+  
+ol.progtrckr li.progtrckr-done:before {
+    content: "\2713";
+    color: white;
+    background-color: #25AE88;
+    margin-left: 0.2em;
+    width: 1.2em;
+    line-height: 1.2em;
+    border-radius: 1.2em;
+}
+  
+ol.progtrckr li.progtrckr-done:hover:before {
+    color: #556080;
+}
+
+.footer-buttons {
+    width: calc(100% / 12 * 8);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media (max-width: 1068px) {
+    .footer-buttons {
+        width: calc(100% / 12 * 10);
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+}
+
+@media (max-width: 735px) {
+    .footer-buttons {
+        width: 100%;
+    }
+}
+
+.next-button {
+    float: right !important;
+    margin-right: 50px;
+}
+
+.back-button {
+    float: left !important;
+    margin-left: 50px;
+}
+
+.rating-container {
+    border: 3px solid #556080;
+    border-radius: 50%;
+    padding: 7%
+}
+
+.rating-up:hover {
+    color: #3DA557;
+    border-color: #3DA557;
+    transition: 1s;
+}
+
+.rating-down:hover {
+    color: #A83E3E;
+    border-color: #A83E3E;
+    transition: 1s;
+}

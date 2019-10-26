@@ -4,6 +4,7 @@
 @import './components/home/home.css';
 @import './components/navigation/navigation.css';
 @import './components/categories/categories.css';
+@import './components/tip-stepper.js/steps.css';
 
 .transition {
     transition: 0.3s linear;

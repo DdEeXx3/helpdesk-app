@@ -1,114 +1,497 @@
 {
-    "porady": [
+  "porady": [
+    {
+      "id": 1,
+      "tytuł": "Woda w umywalce nie odpływa",
+      "kategoria": "łazienka",
+      "podkategoria": "umywalka",
+      "ocenyPozytywne": 44,
+      "ocenyNegatywne": 15,
+      "kroki": [
         {
-            "id": 1,
-            "tytuł": "Woda w umywalce nie odpływa",
-            "kategoria": "łazienka",
-            "podkategoria": "umywalka",
-            "ocenyPozytywne": 40,
-            "ocenyNegatywne": 12,
-            "kroki": [
-                {
-                    "id": 1,
-                    "tekst": "cos tam cos tam"
-                },
-                {
-                    "id": 2,
-                    "tekst": "cos tam cos tam"
-                },
-                {
-                    "id": 3,
-                    "tekst": "cos tam cos tam"
-                }
-            ]
+          "id": 1,
+          "tytuł": "Tytuł 1. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
         },
         {
-            "id": 2,
-            "tytuł": "Ze zlewu w kuchni wydobywa się nieprzyjemny zapach",
-            "kategoria": "kuchnia",
-            "podkategoria": "zlew",
-            "ocenyPozytywne": 10,
-            "ocenyNegatywne": 2,
-            "kroki": [
-                {
-                    "id": 1,
-                    "tekst": "cos tam cos tam"
-                },
-                {
-                    "id": 2,
-                    "tekst": "cos tam cos tam"
-                },
-                {
-                    "id": 3,
-                    "tekst": "cos tam cos tam"
-                }
-            ]
+          "id": 2,
+          "tytuł": "Tytuł 2. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
         },
         {
-            "id": 3,
-            "tytuł": "Moja prostownica wydaje dziwne dźwięki",
-            "kategoria": "elektronika",
-            "podkategoria": "inne",
-            "ocenyPozytywne": 23,
-            "ocenyNegatywne": 12,
-            "kroki": [
-                {
-                    "id": 1,
-                    "tekst": "cos tam cos tam"
-                },
-                {
-                    "id": 2,
-                    "tekst": "cos tam cos tam"
-                },
-                {
-                    "id": 3,
-                    "tekst": "cos tam cos tam"
-                }
-            ]
+          "id": 3,
+          "tytuł": "Tytuł 3. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
         },
         {
-            "id": 4,
-            "tytuł": "Tapeta mi się odkleja",
-            "kategoria": "remont",
-            "podkategoria": "tapetowanie",
-            "ocenyPozytywne": 11,
-            "ocenyNegatywne": 42,
-            "kroki": [
-                {
-                    "id": 1,
-                    "tekst": "cos tam cos tam"
-                },
-                {
-                    "id": 2,
-                    "tekst": "cos tam cos tam"
-                },
-                {
-                    "id": 3,
-                    "tekst": "cos tam cos tam"
-                }
-            ]
+          "id": 4,
+          "tytuł": "Tytuł 4. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
         },
         {
-            "id": 5,
-            "tytuł": "Pod tapetą robią się bąble",
-            "kategoria": "remont",
-            "podkategoria": "tapetowanie",
-            "ocenyPozytywne": 33,
-            "ocenyNegatywne": 1,
-            "kroki": [
-                {
-                    "id": 1,
-                    "tekst": "cos tam cos tam"
-                },
-                {
-                    "id": 2,
-                    "tekst": "cos tam cos tam"
-                },
-                {
-                    "id": 3,
-                    "tekst": "cos tam cos tam"
-                }
-            ]
+          "id": 5,
+          "tytuł": "Tytuł 5. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "tytuł": "Tytuł 6. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "tytuł": "Ze zlewu w kuchni wydobywa się nieprzyjemny zapach",
+      "kategoria": "kuchnia",
+      "podkategoria": "zlew",
+      "ocenyPozytywne": 13,
+      "ocenyNegatywne": 3,
+      "kroki": [
+        {
+          "id": 1,
+          "tytuł": "Tytuł 1. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "tytuł": "Tytuł 2. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "tytuł": "Tytuł 3. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "tytuł": "Moja prostownica wydaje dziwne dźwięki",
+      "kategoria": "elektronika",
+      "podkategoria": "inne",
+      "ocenyPozytywne": 26,
+      "ocenyNegatywne": 13,
+      "kroki": [
+        {
+          "id": 1,
+          "tytuł": "Tytuł 1. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "tytuł": "Tytuł 2. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "tytuł": "Tytuł 3. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "tytuł": "Tytuł 4. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "tytuł": "Tapeta mi się odkleja",
+      "kategoria": "remont",
+      "podkategoria": "tapetowanie",
+      "ocenyPozytywne": 11,
+      "ocenyNegatywne": 42,
+      "kroki": [
+        {
+          "id": 1,
+          "tytuł": "Tytuł 1. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "tytuł": "Tytuł 2. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "tytuł": "Tytuł 3. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "tytuł": "Tytuł 4. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "tytuł": "Tytuł 5. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "tytuł": "Pod tapetą robią się bąble",
+      "kategoria": "remont",
+      "podkategoria": "tapetowanie",
+      "ocenyPozytywne": 33,
+      "ocenyNegatywne": 1,
+      "kroki": [
+        {
+          "id": 1,
+          "tytuł": "Tytuł 1. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "tytuł": "Tytuł 2. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "tytuł": "Nie mam prądu",
+      "kategoria": "media",
+      "podkategoria": "prąd",
+      "ocenyPozytywne": 59,
+      "ocenyNegatywne": 4,
+      "kroki": [
+        {
+          "id": 1,
+          "tytuł": "Sprawdź bezpieczniki",
+          "imgUrl": "https://i.ibb.co/xDcf4tr/nie-ma-pradu-1.jpg",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "Bezpieczniki modułowe lub automatyczne – zmiana pozycji położenia dźwigni lub przycisku świadczy o ich wyłączeniu. Aby włączyć bezpiecznik wystarczy dźwignię czy przycisk przywrócić do wcześniejszej pozycji."
+            },
+            {
+              "id": 2,
+              "paragraf": "Bezpieczniki topikowe – aby sprawdzić, czy bezpiecznik działa prawidłowo, należy dotknąć metalowy kapturek neonówką. Wymiana bezpiecznika na nowy usunie awarię."
+            },
+            {
+              "id": 3,
+              "paragraf": "Uszkodzonych bezpieczników zarówno automatycznych, jak i topikowego nie wolno naprawiać! Jeżeli nie uda nam się ich ponownie włączyć – należy kupić nowy bezpiecznik i go zamontować na miejscu uszkodzonego urządzenia."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "tytuł": "Przeciążenie instalacji",
+          "imgUrl": "https://i.ibb.co/1MDn4r3/nie-ma-pradu-2.jpg",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "Jeżeli awaria jest wynikiem przeciążenia instalacji należy wyłączyć kilka urządzeń o dużej mocy i spróbować włączyć bezpieczniki. Jeżeli nie przyniesie to oczekiwanego efektu, pozostanie nam wezwanie elektryka, który znajdzie źródło spięcia i awarii."
+            },
+            {
+              "id": 2,
+              "paragraf": "Jeżeli przeciążenia często się powtarzają, należy sprawdzić całą instalację elektryczną, gdyż przeciążenia mogą prowadzić do poważniejszych awarii, a nawet pożaru. Tlącą się instalację nie wolno gasić wodą, wykorzystać można jedynie gaśnice proszkowe i śniegowe, które powinny być na wyposażeniu każdego domu czy mieszkania!"
+            },
+            {
+              "id": 3,
+              "paragraf": "Wszystkie naprawy instalacji elektrycznych powinny być zlecone tylko uprawnionej osobie. Samodzielne majsterkowanie może skończyć się porażeniem prądu, a nawet śmiercią."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "tytuł": "Wezwij pogotowie energetyczne",
+          "imgUrl": "https://i.ibb.co/rfjJnLC/nie-ma-pradu-3.jpg",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "Jeżeli właściciel domu czy mieszkania lub zarządca budynku wielorodzinnego stwierdzi, że bezpieczniki zamontowane w instalacjach powinny działać prawidłowo, a przeciążenie instalacji nie miało powodu wystąpić, o przerwie w dostawie energii elektrycznej należy powiadomić Pogotowie Energetyczne. Ogólnokrajowy numer telefonu, pod który należy dzwonić to numer alarmowy 911."
+            },
+            {
+              "id": 2,
+              "paragraf": "Do Pogotowia Energetycznego zgłasza się alarmowe wynikające z uszkodzenia linii energetycznej lub w przypadku, gdy awaria dotyczy np. całego osiedla czy ulicy. Przedsiębiorstwo energetyczne jest właścicielem sieci energetycznej, ale napraw dokonuje do granicy stron. Warto więc przypomnieć sobie warunki umowy na dostawę energii elektrycznej, jaką podpisaliśmy z dostawcą."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
