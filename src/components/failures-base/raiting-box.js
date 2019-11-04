@@ -17,7 +17,12 @@ class RatingBox extends React.Component {
         ctx = canvas.getContext('2d'),
         grd;
 
-        var ratingUp = this.props.tipInfo.ocenyPozytywne / (this.props.tipInfo.ocenyPozytywne + this.props.tipInfo.ocenyNegatywne);
+        if (this.props.tipInfo.ocenyPozytywne == 0 && this.props.tipInfo.ocenyNegatywne == 0) {
+            var ratingUp = 0;
+        }
+        else {
+            var ratingUp = this.props.tipInfo.ocenyPozytywne / (this.props.tipInfo.ocenyPozytywne + this.props.tipInfo.ocenyNegatywne);
+        }        
 
         grd = ctx.createLinearGradient(0.000, 150.000, 300.000, 150.000);
         
@@ -45,7 +50,7 @@ class RatingBox extends React.Component {
         return (
             <div className="width-100percent text-center margin-top-auto margin-bottom-auto container col-lg-12 col-md-12 col-sm-12">
                 <div className="col-lg-4 col-md-4 col-sm-4"></div>
-                <LinkContainer to="/tip-detail"><button className="button-small button-teritary button-small-radius button-hover-right col-lg-4 col-md-4 col-sm-4">Zobacz ></button></LinkContainer>
+                <LinkContainer to="/tip-detail"><button className="button-small button-teritary button-small-radius button-hover-right col-lg-4 col-md-4 col-sm-4">Zobacz <i class="padding-left-5px fas fa-arrow-circle-right"></i></button></LinkContainer>
                 <div className="col-lg-4 col-md-4 col-sm-4"></div>
                 <h5 className="col-lg-12 col-md-12 col-sm-12 margin-top-10px">OCENA:</h5>
                 <div className="container col-lg-12 col-md-12 col-sm-12">

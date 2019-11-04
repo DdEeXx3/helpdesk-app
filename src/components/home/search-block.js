@@ -25,7 +25,7 @@ class SearchBlock extends React.Component {
                             <span>
                                 <i className="padding-right-10px fas fa-search"></i>
                                 <span>SZUKAJ</span>
-                                <i class="padding-left-10px fas fa-chevron-right"></i>
+                                <i class="padding-left-10px fas fa-arrow-circle-right"></i>
                             </span>
                         </button>
                     </LinkContainer>

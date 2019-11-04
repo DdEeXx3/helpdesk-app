@@ -31,7 +31,7 @@ class SubcategoryTips extends React.Component {
                     <CategoryInfoBox tipInfo = {tipInfo} />
                     <div className="col-lg-5 col-md-4 col-sm-4"></div>
                     <div className="text-center col-lg-2 col-md-4 col-sm-4">
-                        <button className="button-small button-small-radius button-teritary button-hover-left" onClick={() => this.goBack()}>{"< Powrót"}</button>
+                        <button className="button-small button-small-radius button-teritary button-hover-left" onClick={() => this.goBack()}><i class="padding-right-5px fas fa-arrow-circle-left"></i>Powrót</button>
                     </div>
                     <div className="col-lg-5 col-md-4 col-sm-4"></div>
                     <div className="col-lg-12 col-md-12 col-sm-12">
@@ -50,6 +50,7 @@ class SubcategoryTips extends React.Component {
                     </div>
                 </div>
                 <div className="col-lg-2 col-md-1 col-sm-12"></div>
+                {this.props.tips.loading && (<div className="text-center col-lg-12 col-md-12 col-sm-12 padding-top-50px padding-bottom-50px">ŁADOWANIE<div className="loader text-center"></div></div>)}
             </div>
         );
     }

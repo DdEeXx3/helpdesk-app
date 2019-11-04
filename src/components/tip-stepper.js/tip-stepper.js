@@ -21,8 +21,8 @@ class TipStepper extends React.Component {
 
     generateSteps = () => {
         var steps = [];
-        this.props.tips.currentTip.kroki.map(krok => {
-            var step = {name: '', component: <TipStep krok = {krok}/>};
+        this.props.tips.currentTip.kroki.map((krok, index) => {
+            var step = {name: '', component: <TipStep krok = {krok} id={index+1}/>};
             steps.push(step);
         })
         var ratingContainer = {name: '', component: <RatingComponent tip = {this.props.tips.currentTip} />};

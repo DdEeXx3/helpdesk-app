@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {fetchData, getCurrentTip} from '../../redux/actions/tips';
+import {filter, fetchData, getCurrentTip} from '../../redux/actions/tips';
 import TipContainer from './tip-container';
 import SearchContainer from './search-container';
 
@@ -8,7 +8,7 @@ class FailuresBase extends React.Component {
     
     constructor(props) {
         super(props);
-        this.props.fetchData(this.props.tips.searchValue);
+        this.props.filter(this.props.tips.searchValue, this.props.tips.currentCategory, this.props.tips.currentSubcategory);
     }
 
     render() {
@@ -30,6 +30,7 @@ class FailuresBase extends React.Component {
                     </div>
                 </div>
                 <div className="col-lg-2 col-md-1 col-sm-12"></div>
+                {this.props.tips.loading && (<div className="text-center col-lg-12 col-md-12 col-sm-12 padding-top-50px padding-bottom-50px">ŁADOWANIE<div className="loader text-center"></div></div>)}
             </div>
         );
     }
@@ -40,6 +41,7 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
+    filter: (search, category, subcategory) => dispatch(filter(search, category, subcategory)),
     fetchData: (search) => dispatch(fetchData(search)),
     getCurrentTip: (currentTip) => dispatch(getCurrentTip(currentTip))
 });

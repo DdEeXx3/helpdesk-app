@@ -169,3 +169,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
     border-color: #A83E3E;
     transition: 1s;
 }
+
+.justify {
+    text-align: justify;
+}

@@ -1,4 +1,5 @@
 const tips = {
+    loading: false,
     tips: [], 
     currentTips: [], 
     currentTip: [], 
@@ -24,6 +25,8 @@ export const tipsReducer = (state = tips, action) => {
             return Object.assign({}, state, {tips: action.response, currentTips: action.response});
         case "FETCH_DATA_FAILURE":
             return Object.assign({}, state, {errorMessageClass: action.error});
+        case "SHOW_LOADING":
+            return Object.assign({}, state, {currentTips: [], loading: true, errorMessageClass: "error-message-hidden"});
         case "GET_CURRENT_TIP":
             return Object.assign({}, state, {currentTip: action.currentTip});
         case "HANDLE_SEARCH":
@@ -39,9 +42,9 @@ export const tipsReducer = (state = tips, action) => {
         case "SHOW_SEARCH_BOX":
             return Object.assign({}, state, {filterSearchVisibility: checkSearch(state.filterSearchVisibility)});
         case "SHOW_FILTER_RESULT":
-            return Object.assign({}, state, {currentTips: action.result, errorMessageClass: "error-message-hidden"});
+            return Object.assign({}, state, {currentTips: action.result, errorMessageClass: "error-message-hidden", loading: false});
         case "SORT_ACTION":
-            return Object.assign({}, state, {currentTips: action.tips});
+            return Object.assign({}, state, {currentTips: action.tips, loading: false});
         case "CLEAR_SUBCATEGORY_STATE":
             return Object.assign({}, state, {currentSubcategory: ''});
         case "CLEAR_SORT_OPTIONS":

@@ -132,6 +132,13 @@ export const clearCategoryFilter = () => {
 //FILTER RESULTS:
 export const filter = (search = '', category = '', subcategory = '') => {
     return (dispatch) => {
+        dispatch(showLoading());
+        setTimeout(() => dispatch(filterAction(search, category, subcategory)), 2000);
+    }
+}
+
+const filterAction = (search = '', category = '', subcategory = '') => {
+    return (dispatch) => {
         let param = '?q=';
 
         if (search === '') {
@@ -173,6 +180,12 @@ export const filter = (search = '', category = '', subcategory = '') => {
                 return json;
             })
         })
+    }
+}
+
+const showLoading = () => {
+    return {
+        type: "SHOW_LOADING"
     }
 }
 
