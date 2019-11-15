@@ -1,25 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import NavigationBar from './components/navigation/navigation-bar';
+import Home from './components/home/home';
+import Footer from './components/footer/footer';
+import FailuresBase from './components/failures-base/failures-base';
+import AddFailure from './components/add-failure/add-failure';
+import Bathroom from './components/categories/bathroom/bathroom';
+import Media from './components/categories/media/media';
+import Electronics from './components/categories/electronics/electronics';
+import Furnishings from './components/categories/furnishings/furnishings';
+import Kitchen from './components/categories/kitchen/kitchen';
+import Renovation from './components/categories/renovation/renovation';
+import SubcategoryTips from './components/subcategory-tips/subcategory-tips';
+import TipStepper from './components/tip-stepper.js/tip-stepper';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+          <NavigationBar />
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/failures-base" component={FailuresBase} />
+            <Route path="/add-failure" component={AddFailure} />
+            <Route path="/łazienka" exact component={Bathroom} />
+            <Route path="/media" exact component={Media} />
+            <Route path="/elektronika" exact component={Electronics} />
+            <Route path="/wyposażenie" exact component={Furnishings} />
+            <Route path="/kuchnia" exact component={Kitchen} />
+            <Route path="/remont" exact component={Renovation} />
+            <Route path="/:category/:subcategory" component={SubcategoryTips} />
+            <Route path="/tip-detail" component={TipStepper} />
+          </Switch>
+          <Footer />
+      </div>
+    </Router>
   );
 }
 

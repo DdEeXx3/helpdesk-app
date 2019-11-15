@@ -1,0 +1,538 @@
+{
+  "porady": [
+    {
+      "id": 1,
+      "tytuł": "Woda w umywalce nie odpływa",
+      "kategoria": "łazienka",
+      "podkategoria": "umywalka",
+      "ocenyPozytywne": 47,
+      "ocenyNegatywne": 16,
+      "kroki": [
+        {
+          "id": 1,
+          "tytuł": "Tytuł 1. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "tytuł": "Tytuł 2. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "tytuł": "Tytuł 3. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "tytuł": "Tytuł 4. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "tytuł": "Tytuł 5. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "tytuł": "Tytuł 6. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "tytuł": "Ze zlewu w kuchni wydobywa się nieprzyjemny zapach",
+      "kategoria": "kuchnia",
+      "podkategoria": "zlew",
+      "ocenyPozytywne": 13,
+      "ocenyNegatywne": 3,
+      "kroki": [
+        {
+          "id": 1,
+          "tytuł": "Tytuł 1. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "tytuł": "Tytuł 2. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "tytuł": "Tytuł 3. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "tytuł": "Moja prostownica wydaje dziwne dźwięki",
+      "kategoria": "elektronika",
+      "podkategoria": "inne",
+      "ocenyPozytywne": 26,
+      "ocenyNegatywne": 14,
+      "kroki": [
+        {
+          "id": 1,
+          "tytuł": "Tytuł 1. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "tytuł": "Tytuł 2. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "tytuł": "Tytuł 3. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "tytuł": "Tytuł 4. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "tytuł": "Tapeta mi się odkleja",
+      "kategoria": "remont",
+      "podkategoria": "tapetowanie",
+      "ocenyPozytywne": 14,
+      "ocenyNegatywne": 42,
+      "kroki": [
+        {
+          "id": 1,
+          "tytuł": "Tytuł 1. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "tytuł": "Tytuł 2. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "tytuł": "Tytuł 3. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "tytuł": "Tytuł 4. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "tytuł": "Tytuł 5. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "tytuł": "Pod tapetą robią się bąble",
+      "kategoria": "remont",
+      "podkategoria": "tapetowanie",
+      "ocenyPozytywne": 33,
+      "ocenyNegatywne": 1,
+      "kroki": [
+        {
+          "id": 1,
+          "tytuł": "Tytuł 1. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "tytuł": "Tytuł 2. porady",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "id": 1,
+              "paragraf": "To jest pierwszy paragraf"
+            },
+            {
+              "id": 2,
+              "paragraf": "To jest drugi paragraf"
+            },
+            {
+              "id": 3,
+              "paragraf": "To jest trzeci paragraf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tytuł": "Nie mam prądu",
+      "kategoria": "media",
+      "podkategoria": "prąd",
+      "ocenyPozytywne": 6,
+      "ocenyNegatywne": 1,
+      "kroki": [
+        {
+          "tytuł": "Sprawdź bezpieczniki",
+          "imgUrl": "https://i.ibb.co/xDcf4tr/nie-ma-pradu-1.jpg",
+          "tekst": [
+            {
+              "paragraf": "Bezpieczniki modułowe lub automatyczne – zmiana pozycji położenia dźwigni lub przycisku świadczy o ich wyłączeniu. Aby włączyć bezpiecznik wystarczy dźwignię czy przycisk przywrócić do wcześniejszej pozycji."
+            },
+            {
+              "paragraf": "Bezpieczniki topikowe – aby sprawdzić, czy bezpiecznik działa prawidłowo, należy dotknąć metalowy kapturek neonówką. Wymiana bezpiecznika na nowy usunie awarię."
+            },
+            {
+              "paragraf": "Uszkodzonych bezpieczników zarówno automatycznych, jak i topikowego nie wolno naprawiać! Jeżeli nie uda nam się ich ponownie włączyć – należy kupić nowy bezpiecznik i go zamontować na miejscu uszkodzonego urządzenia."
+            }
+          ]
+        },
+        {
+          "tytuł": "Przeciążenie instalacji",
+          "imgUrl": "https://i.ibb.co/1MDn4r3/nie-ma-pradu-2.jpg",
+          "tekst": [
+            {
+              "paragraf": "Jeżeli awaria jest wynikiem przeciążenia instalacji należy wyłączyć kilka urządzeń o dużej mocy i spróbować włączyć bezpieczniki. Jeżeli nie przyniesie to oczekiwanego efektu, pozostanie nam wezwanie elektryka, który znajdzie źródło spięcia i awarii."
+            },
+            {
+              "paragraf": "Jeżeli przeciążenia często się powtarzają, należy sprawdzić całą instalację elektryczną, gdyż przeciążenia mogą prowadzić do poważniejszych awarii, a nawet pożaru. Tlącą się instalację nie wolno gasić wodą, wykorzystać można jedynie gaśnice proszkowe i śniegowe, które powinny być na wyposażeniu każdego domu czy mieszkania!"
+            },
+            {
+              "paragraf": "Wszystkie naprawy instalacji elektrycznych powinny być zlecone tylko uprawnionej osobie. Samodzielne majsterkowanie może skończyć się porażeniem prądu, a nawet śmiercią."
+            }
+          ]
+        },
+        {
+          "tytuł": "Zadzwoń na Pogotowie Energetyczne",
+          "imgUrl": "https://i.ibb.co/BKpR87X/nie-ma-pradu-3.jpg",
+          "tekst": [
+            {
+              "paragraf": "Jeżeli właściciel domu czy mieszkania lub zarządca budynku wielorodzinnego stwierdzi, że bezpieczniki zamontowane w instalacjach powinny działać prawidłowo, a przeciążenie instalacji nie miało powodu wystąpić, o przerwie w dostawie energii elektrycznej należy powiadomić Pogotowie Energetyczne. Ogólnokrajowy numer telefonu, pod który należy dzwonić to numer alarmowy 911."
+            },
+            {
+              "paragraf": "Do Pogotowia Energetycznego zgłasza się alarmowe wynikające z uszkodzenia linii energetycznej lub w przypadku, gdy awaria dotyczy np. całego osiedla czy ulicy. Przedsiębiorstwo energetyczne jest właścicielem sieci energetycznej, ale napraw dokonuje do granicy stron. Warto więc przypomnieć sobie warunki umowy na dostawę energii elektrycznej, jaką podpisaliśmy z dostawcą."
+            }
+          ]
+        }
+      ],
+      "id": 6
+    },
+    {
+      "tytuł": "Pralka nie kończy programu",
+      "kategoria": "łazienka",
+      "podkategoria": "pralka",
+      "ocenyPozytywne": 5,
+      "ocenyNegatywne": 1,
+      "kroki": [
+        {
+          "tytuł": "Czyszczenie pralki",
+          "imgUrl": "https://i.ibb.co/kgXvHj5/GRZALKA-DO-PRALKI-WHIRLPOOL-AWO-AWE-AWT-AWM-2050-W.jpg",
+          "tekst": [
+            {
+              "paragraf": "Podstawowym czynnikiem generującym problemy z pralką jest jej zabrudzenie. Niedrożność takich elementów jak filtr pompy odpływowej czy elektrozawór od zawsze generuje wiele usterek."
+            },
+            {
+              "paragraf": "Zapchany filtr w pralce przez kłąb włosów czy zagubioną skarpetkę nie pozwoli na dalsze przeprowadzenie cyklu, a zapchane sitko węża odpływowego uniemożliwi odprowadzenie brudnej wody. Pamiętaj o regularnym czyszczeniu syfonu zamontowanego w ścianie oraz opróżnianiu filtra pompy."
+            }
+          ]
+        },
+        {
+          "tytuł": "Woda w pralce",
+          "imgUrl": "https://i.ibb.co/6FLFGX0/jak-wyczyscic-pralke.jpg",
+          "tekst": [
+            {
+              "paragraf": "Upewnij się, czy ciśnienie wody jest dostatecznie wysokie, by pralka pobrała wystarczającą ilość wody niezbędną do danego cyklu. Zbyt niskie ciśnienie może być niewłaściwie wykrywane przez pralkę, która będzie cały czas pobierać wodę, co może skończyć się nawet zalaniem. Sprawdź szczelność i drożność urządzenia – szczególnie uważnie zbadaj uszczelki w pralce."
+            },
+            {
+              "paragraf": "Równie ważne dla pralki jest skuteczne i niezakłócone niczym odprowadzanie wody. Jeśli wąż odprowadzający wodę jest źle zamontowany lub wąż w pralce jest zapchany, pralka nie będzie mogła właściwie przejść do kolejnego punktu w cyklu prania. Sprawdź mocowania i drożność wszystkich rur i węży."
+            }
+          ]
+        },
+        {
+          "tytuł": "Zużyta lub zakamieniona grzałka",
+          "imgUrl": "https://i.ibb.co/MkBHXdc/pralka-nie-odprowadza-wody.jpg",
+          "tekst": [
+            {
+              "paragraf": "Nieprawidłowa praca grzałki w pralce może sprawić, że urządzenie przestanie zupełnie działać lub lekko „zwariuje”. Zakamieniona grzałka nie będzie prawidłowo podgrzewać wody i może spowodować wiele innych usterek, łącznie z wybijaniem bezpieczników. Dbaj o regularne odkamienianie grzałki domowymi sposobami lub kupnymi środkami."
+            }
+          ]
+        },
+        {
+          "tytuł": "Usterka natury elektronicznej",
+          "imgUrl": "https://i.ibb.co/PctJhp8/water-level-full.jpg",
+          "tekst": [
+            {
+              "paragraf": "Jeśli pralka zawiesiła się na jednym z programów i nie chce skończyć prania, może to oznaczać także usterkę natury elektronicznej. Warto skontaktować się z fachowcem, który oceni, czy winny jest moduł sterowania pralki czy uszkodzona grzałka. Warto zapobiegać tego typu awariom poprzez regularne i właściwe dbanie o sprzęt AGD."
+            }
+          ]
+        }
+      ],
+      "id": 7
+    }
+  ]
+}
