@@ -13,18 +13,19 @@ const tipsForm = {
     ],
     currentSubcategories: [],
     subcategoryMessageStatus: 'block',
-    titleValidation: true,
+    titleValidation: false,
     subcategoryValidation: false,
     subcategoryValidationVisibility: false,
     stepsValidation: [
         {
-            tytuł: true,
+            tytuł: false,
             imgUrl: true,
             tekst: [
-                {paragraf: true}
+                {paragraf: false}
             ]
         }
     ],
+    sendButtonVisibility: false
 };
 
 export const tipsFormReducer = (state = tipsForm, action) => {
@@ -39,7 +40,11 @@ export const tipsFormReducer = (state = tipsForm, action) => {
             return Object.assign({}, state, {podkategoria: action.subcategory, subcategoryValidation: true}); 
         case "ADD_STEP":
             return Object.assign({}, state, {kroki: action.steps, stepsValidation: action.validation});
+        case "DELETE_STEP":
+            return Object.assign({}, state, {kroki: action.steps, stepsValidation: action.validation});
         case "ADD_PARAGRAPH":
+            return Object.assign({}, state, {kroki: action.steps, stepsValidation: action.validation});
+        case "DELETE_PARAGRAPH":
             return Object.assign({}, state, {kroki: action.steps, stepsValidation: action.validation});
         case "HANDLE_STEP_TITLE":
             return Object.assign({}, state, {kroki: action.steps, stepsValidation: action.validation});
@@ -47,6 +52,8 @@ export const tipsFormReducer = (state = tipsForm, action) => {
             return Object.assign({}, state, {kroki: action.steps, stepsValidation: action.validation});
         case "HANDLE_PARAGRAPH":
             return Object.assign({}, state, {kroki: action.steps, stepsValidation: action.validation});
+        case "CHECK_VALIDATION_STATUS":
+            return Object.assign({}, state, {sendButtonVisibility: action.status});
         default:
             return state;
     }

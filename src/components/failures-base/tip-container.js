@@ -11,12 +11,12 @@ class TipContainer extends React.Component {
             <div className="shadow button-small-radius margin-40px container col-lg-12 col-md-12 col-sm-12" onClick={() => this.props.getCurrentTip(this.props.tipInfo)}>
                 <div className="container col-lg-8 col-md-12 col-sm-12">
                     <div className="text-center col-lg-12 col-md-12 col-sm-12">
-                        <h3 className="margin-3percent">{this.props.tipInfo.tytuł}</h3>
+                        <h3 className="margin-20px">{this.props.tipInfo.tytuł}</h3>
                     </div>
                     <CategoryInfoBox tipInfo={this.props.tipInfo} />
                 </div>
                 <div className="container col-lg-4 col-md-12 col-sm-12">
-                    <RatingBox tipInfo={this.props.tipInfo}/>
+                    <RatingBox tipInfo={this.props.tipInfo} index={this.props.index}/>
                 </div>
             </div>
         );

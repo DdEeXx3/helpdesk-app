@@ -8,7 +8,7 @@ class FailuresBase extends React.Component {
     
     constructor(props) {
         super(props);
-        this.props.filter(this.props.tips.searchValue, this.props.tips.currentCategory, this.props.tips.currentSubcategory);
+        this.props.filter(this.props.tips.searchValue, '', '');
     }
 
     render() {
@@ -20,8 +20,8 @@ class FailuresBase extends React.Component {
                         <h3 className='text-center margin-top-6percent'>Witaj w bazie usterek!</h3>
                         <h4 className="text-center margin-bottom-6percent">Możesz tu wyszukać awarię po słowie kluczowym,a także przefiltrować lub posortować wyniki:</h4>
                         <SearchContainer />
-                        {this.props.tips.currentTips.map(tip => {
-                            return <TipContainer tipInfo = {tip}/>
+                        {this.props.tips.currentTips.map((tip, index) => {
+                            return <TipContainer tipInfo = {tip} index={index}/>
                         })}
                         <div className={`error-message ${this.props.tips.errorMessageClass} input-small-radius padding-20px shadow margin-left-30percent margin-right-30percent margin-bottom-4percent text-center input-background-teritary`}>
                             <i className="medium margin-left-4percent margin-right-4percent fas fa-search-minus"></i>

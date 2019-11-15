@@ -7,12 +7,13 @@ class RatingBox extends React.Component {
         super(props);
     }
 
-    componentDidMount() {
+    componentDidUpdate() {
         this.fillRatingBar();
     }
 
     fillRatingBar = () => {
-        var canvasId = `rating-bar-${this.props.tipInfo.id}`,
+        console.log(this.props.tipInfo);
+        var canvasId = `rating-bar-${this.props.index}`,
         canvas = document.getElementById(canvasId),
         ctx = canvas.getContext('2d'),
         grd;
@@ -48,7 +49,7 @@ class RatingBox extends React.Component {
 
     render() {
         return (
-            <div className="width-100percent text-center margin-top-auto margin-bottom-auto container col-lg-12 col-md-12 col-sm-12">
+            <div className="width-100percent text-center margin-top-30px margin-bottom-auto container col-lg-12 col-md-12 col-sm-12">
                 <div className="col-lg-4 col-md-4 col-sm-4"></div>
                 <LinkContainer to="/tip-detail"><button className="button-small button-teritary button-small-radius button-hover-right col-lg-4 col-md-4 col-sm-4">Zobacz <i class="padding-left-5px fas fa-arrow-circle-right"></i></button></LinkContainer>
                 <div className="col-lg-4 col-md-4 col-sm-4"></div>
@@ -58,7 +59,7 @@ class RatingBox extends React.Component {
                         <i className="input-font-success far fa-thumbs-up"></i>
                         <p className="small">{this.props.tipInfo.ocenyPozytywne}</p>
                     </div>
-                    <canvas id={`rating-bar-${this.props.tipInfo.id}`} className="text-center height-10px margin-bottom-auto margin-top-auto width-100percent button-small-radius col-lg-8 col-md-8 col-sm-8"></canvas>
+                    <canvas id={`rating-bar-${this.props.index}`} className="text-center height-10px margin-bottom-auto margin-top-auto width-100percent button-small-radius col-lg-8 col-md-8 col-sm-8"></canvas>
                     <div className="text-left margin-20percent col-lg-2 col-md-2 col-sm-2">
                         <i className="input-font-error far fa-thumbs-down"></i>
                         <p className="small">{this.props.tipInfo.ocenyNegatywne}</p>

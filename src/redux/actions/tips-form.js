@@ -13,6 +13,7 @@ export const handleCurrentCategory = (category) => {
             dispatch(clearSubcategoryState())
         };
         dispatch(handleCurrentCategoryAction(category));
+        dispatch(checkValidationStatus());
     }
 }
 
@@ -35,15 +36,25 @@ export const handleCurrentSubcategory = (subcategory) => {
             subcategory = "prysznic_wanna";
         }
         dispatch(handleCurrentSubcategoryAction(subcategory));
+        dispatch(checkValidationStatus());
     }
 }
 
-export const handleTitle = (e) => {
+const handleTitleAction = (e) => {
     return {
         type: "HANDLE_TITLE",
         title: e.target.value
     }
 }
+
+export const handleTitle = (e) => {
+    return (dispatch) => {
+        dispatch(handleTitleAction(e));
+        dispatch(checkValidationStatus());
+    }
+}
+
+
 
 const addStepAction = (steps, validation) => {
     return {
@@ -65,14 +76,32 @@ export const addStep = () => {
             ]
         });
         stepsValidation.push({
-            tytuł: true,
+            tytuł: false,
             imgUrl: true,
             tekst: [
-                {paragraf: true}
+                {paragraf: false}
             ]
 
         })
         dispatch(addStepAction(steps, stepsValidation));
+    }
+}
+
+const deleteStepAction = (steps, validation) => {
+    return {
+        type: "DELETE_STEP",
+        steps,
+        validation
+    }
+}
+
+export const deleteStep = () => {
+    return (dispatch, getState) => {
+        var steps = getState().tipsForm.kroki;
+        var stepsValidation = getState().tipsForm.stepsValidation;
+        steps.pop();
+        stepsValidation.pop();
+        dispatch(deleteStepAction(steps, stepsValidation));
     }
 }
 
@@ -92,13 +121,35 @@ export const addParagraph = (index) => {
             {paragraf: ''}
         );
         paragraphsValidation.tekst.push(
-            {paragraf: true}
+            {paragraf: false}
         );
         var updatedState = getState().tipsForm.kroki;
         updatedState[index] = paragraphs;
         var updatedValidationState = getState().tipsForm.stepsValidation;
         updatedValidationState[index] = paragraphsValidation;
         dispatch(addParagraphAction(updatedState, updatedValidationState));
+    }
+}
+
+const deleteParagraphAction = (steps, validation) => {
+    return {
+        type: "DELETE_PARAGRAPH",
+        steps,
+        validation
+    }
+}
+
+export const deleteParagraph = (index) => {
+    return (dispatch, getState) => {
+        var paragraphs = getState().tipsForm.kroki[index];
+        var paragraphsValidation = getState().tipsForm.stepsValidation[index];
+        paragraphs.tekst.pop();
+        paragraphsValidation.tekst.pop();
+        var updatedState = getState().tipsForm.kroki;
+        updatedState[index] = paragraphs;
+        var updatedValidationState = getState().tipsForm.stepsValidation;
+        updatedValidationState[index] = paragraphsValidation;
+        dispatch(deleteParagraphAction(updatedState, updatedValidationState));
     }
 }
 
@@ -130,6 +181,7 @@ export const handleStepTitle = (e, index) => {
         //
 
         dispatch(handleStepTitleAction(updatedState, updatedValidationState));
+        dispatch(checkValidationStatus());
     }
 }
 
@@ -164,6 +216,7 @@ export const handleStepImageUrl = (e, index) => {
         //
 
         dispatch(handleStepImageUrlAction(updatedState, updatedValidationState));
+        dispatch(checkValidationStatus());
     }
 }
 
@@ -197,6 +250,7 @@ export const handleParagraph = (e, stepIndex, textIndex) => {
         //
 
         dispatch(handleParagraphAction(updatedState, updatedValidationState));
+        dispatch(checkValidationStatus());
     }
 }
 
@@ -227,5 +281,39 @@ export const addNewTip = (title, category, subcategory, steps) => {
         setTimeout(function () {
             window.history.back()
         }, 2000);
+    }
+}
+
+const checkValidationStatusAction = (status) => {
+    return {
+        type: "CHECK_VALIDATION_STATUS",
+        status
+    }
+}
+
+const checkValidationStatus = () => {
+    return (dispatch, getState) => {
+        var validationStatus = true;
+        if (!getState().tipsForm.titleValidation) {
+            validationStatus = false;
+        }
+        if (!getState().tipsForm.subcategoryValidation) {
+            validationStatus = false;
+        }
+        var steps = getState().tipsForm.stepsValidation;
+        steps.map((step) => {
+            if (!step.tytuł) {
+                validationStatus = false;
+            }
+            if (!step.imgUrl) {
+                validationStatus = false;
+            }
+            step.tekst.map(paragraf => {
+                if(!paragraf.paragraf) {
+                    validationStatus = false;
+                }
+            })
+        })
+        dispatch(checkValidationStatusAction(validationStatus));
     }
 }

@@ -3,3 +3,20 @@
     margin-right: 10% !important;
     margin-left: 10% !important;
 }
+
+button:disabled {
+    opacity: 0.3;
+    cursor: auto;
+}
+
+.delete-step {
+    position: relative;
+    left: 98%;
+    bottom: 80%;
+}
+
+.delete-paragraph {
+    position: relative;
+    font-size: 14px;
+    left: 95%;
+}

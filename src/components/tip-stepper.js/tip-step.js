@@ -19,7 +19,7 @@ class TipStep extends React.Component {
                 <div className="col-lg-2 col-md-1 col-sm-12"></div>
                 <div className="col-lg-8 col-md-10 col-sm-12">
                     <h3 className="bold input-font-teritary">{this.props.tips.currentTip.tytuł}</h3>
-                    <button className="button-small button-small-radius button-teritary button-hover-left" onClick={() => this.goBack()}>{"< Powrót"}</button>
+                    <button className="button-small button-small-radius button-teritary button-hover-left" onClick={() => this.goBack()}><i class="padding-right-5px fas fa-arrow-circle-left"></i> Powrót</button>
                 </div>
                 <div className="col-lg-2 col-md-1 col-sm-12"></div>
                 <div className="col-lg-2 col-md-1 col-sm-12"></div>

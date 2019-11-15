@@ -211,7 +211,7 @@ export const handleCurrentSortOption = (option) => {
         else if (option === "Ocena (od najwyższej)") {
             dispatch(sortByRatingDecreasing(tips));
         }
-        else {
+        else if (option === "Ocena (od najniższej)") {
             dispatch(sortByRatingIncreasing(tips));
         }
     }
