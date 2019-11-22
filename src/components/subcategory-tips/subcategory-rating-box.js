@@ -6,7 +6,7 @@ class SubcategoryRatingBox extends React.Component {
         super(props);
     }
 
-    componentDidMount() {
+    componentDidUpdate() {
         this.fillRatingBar();
     }
 
@@ -16,8 +16,13 @@ class SubcategoryRatingBox extends React.Component {
         ctx = canvas.getContext('2d'),
         grd;
 
-        var ratingUp = this.props.tipInfo.ocenyPozytywne / (this.props.tipInfo.ocenyPozytywne + this.props.tipInfo.ocenyNegatywne);
-
+        if (this.props.tipInfo.ocenyPozytywne == 0 && this.props.tipInfo.ocenyNegatywne == 0) {
+            var ratingUp = 0;
+        }
+        else {
+            var ratingUp = this.props.tipInfo.ocenyPozytywne / (this.props.tipInfo.ocenyPozytywne + this.props.tipInfo.ocenyNegatywne);
+        }     
+        
         grd = ctx.createLinearGradient(0.000, 150.000, 300.000, 150.000);
         
         grd.addColorStop(0.000, '#3DA557');

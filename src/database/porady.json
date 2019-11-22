@@ -434,8 +434,8 @@
       "tytuł": "Nie mam prądu",
       "kategoria": "media",
       "podkategoria": "prąd",
-      "ocenyPozytywne": 6,
-      "ocenyNegatywne": 1,
+      "ocenyPozytywne": 38,
+      "ocenyNegatywne": 3,
       "kroki": [
         {
           "tytuł": "Sprawdź bezpieczniki",
@@ -486,8 +486,8 @@
       "tytuł": "Pralka nie kończy programu",
       "kategoria": "łazienka",
       "podkategoria": "pralka",
-      "ocenyPozytywne": 5,
-      "ocenyNegatywne": 1,
+      "ocenyPozytywne": 52,
+      "ocenyNegatywne": 13,
       "kroki": [
         {
           "tytuł": "Czyszczenie pralki",
@@ -533,6 +533,296 @@
         }
       ],
       "id": 7
+    },
+    {
+      "tytuł": "Pralka nie chce się otworzyć",
+      "kategoria": "łazienka",
+      "podkategoria": "pralka",
+      "ocenyPozytywne": 125,
+      "ocenyNegatywne": 20,
+      "kroki": [
+        {
+          "tytuł": "Awaria prądu",
+          "imgUrl": "https://i.ibb.co/pZGxChy/pralka-nie-otwiera-1.jpg",
+          "tekst": [
+            {
+              "paragraf": "Przerwa w dostępie energii podczas cyklu prania często powoduje nietypowe zachowanie pralki. Jeśli woda nie zostanie odpompowana lub programator nie otrzyma sygnału o zakończeniu cyklu, drzwi pozostaną zablokowane. W tym przypadku pomóc może odłączenie i ponowne podłączenie pralki do gniazdka."
+            }
+          ]
+        },
+        {
+          "tytuł": "Blokada rodzicielska",
+          "imgUrl": "https://i.ibb.co/Cttz7W7/pralka-nie-otwiera-2.jpg",
+          "tekst": [
+            {
+              "paragraf": "Nowoczesne pralki często mają dodatkowe funkcje, np. zabezpieczenie przed ingerencją dzieci. Tego typu blokadę drzwi zwykle włącza się określoną w instrukcji kombinacją przycisków. Sprawdź, czy przypadkowo nie została włączona."
+            }
+          ]
+        },
+        {
+          "tytuł": "Zepsuty zamek",
+          "imgUrl": "https://i.ibb.co/QjGZFsz/pralka-nie-otwiera-3.jpg",
+          "tekst": [
+            {
+              "paragraf": "Ten element często staje się ofiarą uszkodzeń mechanicznych. Zbyt gwałtowne trzaśnięcie drzwiczkami może spowodować złamanie zamka. Wszystkie elementy zamka należy usunąć z gniazda i zamontować nową część."
+            }
+          ]
+        },
+        {
+          "tytuł": "Uszkodzona blokada",
+          "imgUrl": "https://i.ibb.co/HNmNGLG/pralka-nie-otwiera-4.jpg",
+          "tekst": [
+            {
+              "paragraf": "To częsta przyczyna, spowodowana uszkodzeniami mechanicznymi (pęknięcia), zalaniem lub zanieczyszczeniem bądź przepięciem. Wymiana blokady drzwi w pralce będzie koniecznością. To podzespół elektroniczny, dlatego lepiej zlecić to specjaliście."
+            }
+          ]
+        },
+        {
+          "tytuł": "Zabrudzony filtr pompy",
+          "imgUrl": "https://i.ibb.co/bW7JXjh/pralka-nie-otwiera-5.jpg",
+          "tekst": [
+            {
+              "paragraf": "Nieczystości znajdujące się w filtrze pompy mogą powodować zastój wody. Niektóre pralki mają system blokujący drzwi pralki w takiej sytuacji. W tym wypadku należy wyczyścić filtr i usunąć z niego wodę – czyszczenie filtra w pralce jest proste i nie wymaga wzywania serwisu. Umiejscowienie tej części znajdziesz w instrukcji – zwykle jest to mała klapka na dole pralki."
+            }
+          ]
+        }
+      ],
+      "id": 8
+    },
+    {
+      "tytuł": "Osad z proszku na ubraniach",
+      "kategoria": "łazienka",
+      "podkategoria": "pralka",
+      "ocenyPozytywne": 98,
+      "ocenyNegatywne": 22,
+      "kroki": [
+        {
+          "tytuł": "Za dużo prania – przeładowanie pralki",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "To częsta przyczyna awarii tego urządzenia, skutkująca nie tylko niedopłukanym praniem, ale także uszkodzeniami bębna."
+            }
+          ]
+        },
+        {
+          "tytuł": "Za dużo proszku",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Zbyt duża dawka detergentu będzie trudna do wypłukania, szczególnie w krótkich programach lub tych o niskiej temperaturze."
+            }
+          ]
+        },
+        {
+          "tytuł": "Za mało wody",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Za pobór wody odpowiada elektrozawór i hydrostat, jednak zanim wezwiesz serwis pralek, sprawdź, czy ciśnienie wody jest odpowiednie. Prawidłowy pobór wody może być zakłócony przez niedrożny lub zakamieniony elektrozawór bądź wąż dopływowy pralki."
+            }
+          ]
+        },
+        {
+          "tytuł": "Zimna woda w pralce",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Proszek rozpuszcza się lepiej w cieplejszej wodzie. Wypróbuj pranie na wyższej temperaturze (o ile dane tkaniny mogą być w takiej wyprane). Jeśli problem osadu i niedoprania odzieży powtarza się przy praniu w temperaturze ponad 40°C, sprawdź ogrzewanie wody. Awarię powodować może zakamieniona lub spalona grzałka, uszkodzony termostat lub czujnik temperatury.  "
+            }
+          ]
+        },
+        {
+          "tytuł": "Brudna szuflada na proszek",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Osad na ubraniach może być spowodowany przez zbrylony proszek, resztki płynów i kurz w dozowniku detergentów i szufladzie na proszek."
+            }
+          ]
+        },
+        {
+          "tytuł": "Osad z proszku – jak zapobiegać?",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Najważniejsze jest czytanie i stosowanie się do instrukcji – zarówno tych od producenta AGD, jak i proszku. Na co warto zwrócić uwagę?"
+            },
+            {
+              "paragraf": "Wsad pralki – przeładowanie bębna może skończyć się jego awarią, dlatego warto załadowywać pralkę zgodnie z instrukcją, tak by nie obciążać nadmiernie sprzętu, ale także umożliwić wypłukanie każdej rzeczy."
+            },
+            {
+              "paragraf": "Płyn do prania – niektóre proszki do prania są dość problematyczne, dlatego można zamienić je na płyn, żel lub kapsułki do prania."
+            },
+            {
+              "paragraf": "Czyszczenie pralki – regularne odkamienianie, czyszczenie pralki octem i mycie szuflad pomoże na osad z proszku, ale także na brzydki zapach z pralki czy kamień na grzałce."
+            }
+          ]
+        }
+      ],
+      "id": 9
+    },
+    {
+      "tytuł": "Uszkodzony wyświetlacz pralki",
+      "kategoria": "łazienka",
+      "podkategoria": "pralka",
+      "ocenyPozytywne": 34,
+      "ocenyNegatywne": 12,
+      "kroki": [
+        {
+          "tytuł": "Uszkodzony wyświetlacz - objawy",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Uszkodzenie wyświetlacza może przejawiać się w różny sposób. Występujące problemy mogą mieć charakter stały lub czasowy i mogą, lecz nie muszą, iść w parze z problemami z uruchomieniem pralki czy dokończeniem cyklu prania. Najczęściej występujące objawy uszkodzonego wyświetlacza to:"
+            },
+            {
+              "paragraf": "- Migający wyświetlacz w pralce – mruganie podświetlenia lub wyświetlanych komunikatów.  "
+            },
+            {
+              "paragraf": "- Ciemny wyświetlacz w pralce – ekran działa, brak podświetlenia."
+            },
+            {
+              "paragraf": "- Wyświetlacz nie działa – brak komunikatów i podświetlenia."
+            }
+          ]
+        },
+        {
+          "tytuł": "Brak prądu",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Jeśli wyświetlacz pralki nie świeci, sprawdź, czy urządzenie jest właściwie podpięte do działającego gniazdka. Upewnij się, czy nie nastąpiła przerwa w dostawie prądu i wypróbuj inne gniazdko elektryczne."
+            }
+          ]
+        },
+        {
+          "tytuł": "Niestabilne napięcie",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Co zrobić, gdy miga wyświetlacz w pralce? Sprawdź prąd! Skoki napięcia w gniazdku to coś, czym powinno zająć się pogotowie elektryczne lub energetyczne. Nie bagatelizuj problemu, ponieważ zaniki prądu i przepięcia mogą uszkodzić domowy sprzęt AGD."
+            }
+          ]
+        },
+        {
+          "tytuł": "Uszkodzony kabel",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Przecięty lub rozwarstwiony przewód zasilający może być przyczyną problemów z wyświetlaczem. Wymiana kabla w takiej sytuacji to konieczność. Przyjrzyj się zarówno wtyczkom, jak i całej długości przewodu."
+            }
+          ]
+        },
+        {
+          "tytuł": "Podświetlenie LCD",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Jeśli pralka działa, wyświetlacz pokazuje komunikaty, jednak jest zaciemniony, może to być uszkodzone podświetlenie LCD. Skonsultuj się z serwisem, który oceni, czy konieczna jest wymiana całego wyświetlacza, czy tylko naprawa podświetlenia.  "
+            }
+          ]
+        },
+        {
+          "tytuł": "Przepalenie",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Każdy układ elektroniczny może się zepsuć. Spalony wyświetlacz może być wynikiem spięcia, zalania, wad fabrycznych lub zużycia po latach eksploatacji. Wymiana wyświetlacza to zadanie dla serwisu pralek."
+            }
+          ]
+        },
+        {
+          "tytuł": "Awaria pralki",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Problem z wyświetlaczem może być wynikiem tego, że pralka nie działa. Jeśli spalił się moduł sterowania, wystąpiło przepięcie w grzałce lub inna poważna awaria, wyświetlacz, jak i cała pralka nie będzie w ogóle działać."
+            }
+          ]
+        }
+      ],
+      "id": 10
+    },
+    {
+      "tytuł": "Uszkodzony wąż odpływowy",
+      "kategoria": "łazienka",
+      "podkategoria": "pralka",
+      "ocenyPozytywne": 112,
+      "ocenyNegatywne": 123,
+      "kroki": [
+        {
+          "tytuł": "Najczęstsze objawy",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Jak rozpoznać problem z wężem? To proste! Najczęściej usterki nie da się przeoczyć – zwykle rozpoznasz ją po jednej z tych rzeczy:"
+            },
+            {
+              "paragraf": "- pralka nie odprowadza wody,"
+            },
+            {
+              "paragraf": "- mokre pranie po wirowaniu,"
+            },
+            {
+              "paragraf": "- wyciek wody spod pralki,"
+            },
+            {
+              "paragraf": "- zalana łazienka."
+            }
+          ]
+        },
+        {
+          "tytuł": "Wymiana czy naprawa?",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Skuteczna naprawa węża do pralki jest niemożliwa – w razie awarii przewód należy wymienić na nowy. Zaklejanie pęknięć i nieszczelności taśmą nie jest najlepszym wyjściem. Cieknący wąż odpływowy może zalać nie tylko naszą łazienkę, ale także sąsiadów, a jeśli woda dostanie się do elektryki zagrożenie spięciem w instalacji lub porażeniem prądem jest naprawdę duże."
+            },
+            {
+              "paragraf": "Wymiana węża odpływowego w pralce nie jest trudna, a koszt części to od kilkunastu do kilkudziesięciu złotych. Jeśli przewód jest w jakikolwiek sposób uszkodzony, niezwłocznie wymień go na nowy. W większości przypadków nie musisz wzywać serwisu pralek, ponieważ podłączenie węża jest bardzo proste!"
+            }
+          ]
+        },
+        {
+          "tytuł": "Jak wyczyścić wąż odpływowy w pralce?",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Zapchany wąż nie wymaga wymiany – jeśli nie jest pęknięty lub zagięty, wystarczy go dobrze przeczyścić. Zobacz popularne sposoby na udrożnienie węża i sam pozbądź się problemu. Zanim odkręcisz przewód, pamiętaj o podłożeniu miski lub ręczników, by resztki mydlin nie zalały podłogi."
+            },
+            {
+              "paragraf": "Odłącz wąż od syfonu i ustaw w pozycji pionowej, wylotem do góry. Do przewodu wlej gorącą wodę i delikatnie ugniataj wąż na całej długości, by rozbić złogi. Możesz także dosypać delikatnie żrącą substancję – kwasek cytrynowy lub sodę oczyszczoną, które pomogą usunąć kamień i szlam z węża. Pozostaw mieszankę w rurze na około pół godziny – po tym czasie zator powinien się rozpuścić lub przesunąć, co ułatwi jego usunięcie przy kolejnym praniu."
+            },
+            {
+              "paragraf": "Odłącz wąż od odpływu oraz pralki i przepłucz go pod bieżącą wodą. Jeśli to nie pomaga, użyj cienkiego drucika lub spirali hydraulicznej, jednak uważaj, by nie przebić plastiku!"
+            },
+            {
+              "paragraf": "Po czyszczeniu podłącz wąż do pralki, pamiętając o mocnym docisku i szczelności. Uruchom cykl prania z dodatkiem octu lub kwasku cytrynowego, maksymalną temperaturą i pustym bębnem. Usuniesz tym sposobem nie tylko pozostałości zatoru z węża, ale także wszelkie nieczystości i kamień z pralki."
+            }
+          ]
+        }
+      ],
+      "id": 11
+    },
+    {
+      "tytuł": "Telewizor nie włącza się",
+      "kategoria": "elektronika",
+      "podkategoria": "telewizja_i_rtv",
+      "ocenyPozytywne": 0,
+      "ocenyNegatywne": 0,
+      "kroki": [
+        {
+          "tytuł": "Sprawdź napięcie w gniazdku",
+          "imgUrl": "",
+          "tekst": [
+            {
+              "paragraf": "Możliwe, że gniazdko, do którego podłączone jest urządzenie jest zepsute. Wówczas telewizor się nie włączy."
+            }
+          ]
+        }
+      ],
+      "id": 12
     }
   ]
 }

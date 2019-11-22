@@ -12,7 +12,6 @@ class RatingBox extends React.Component {
     }
 
     fillRatingBar = () => {
-        console.log(this.props.tipInfo);
         var canvasId = `rating-bar-${this.props.index}`,
         canvas = document.getElementById(canvasId),
         ctx = canvas.getContext('2d'),
