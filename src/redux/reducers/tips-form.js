@@ -39,11 +39,11 @@ export const tipsFormReducer = (state = tipsForm, action) => {
         case "HANDLE_CURRENT_FORM_SUBCATEGORY":
             return Object.assign({}, state, {podkategoria: action.subcategory, subcategoryValidation: true}); 
         case "ADD_STEP":
-            return Object.assign({}, state, {kroki: action.steps, stepsValidation: action.validation});
+            return Object.assign({}, state, {kroki: action.steps, stepsValidation: action.validation, sendButtonVisibility: false});
         case "DELETE_STEP":
             return Object.assign({}, state, {kroki: action.steps, stepsValidation: action.validation});
         case "ADD_PARAGRAPH":
-            return Object.assign({}, state, {kroki: action.steps, stepsValidation: action.validation});
+            return Object.assign({}, state, {kroki: action.steps, stepsValidation: action.validation, sendButtonVisibility: false});
         case "DELETE_PARAGRAPH":
             return Object.assign({}, state, {kroki: action.steps, stepsValidation: action.validation});
         case "HANDLE_STEP_TITLE":

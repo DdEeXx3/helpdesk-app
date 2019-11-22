@@ -12,11 +12,12 @@ class AddFailure extends React.Component {
                 <div className="container col-lg-8 col-md-10 col-sm-12">
                     <div className="col-lg-12 col-md-12 col-sm-12">
                         <h3 className='text-center margin-top-6percent'>Witaj w formularzu!</h3>
-                        <h4 className="text-center margin-bottom-6percent">Możesz tu dodać nową usterkę wraz z poradami:</h4>
+                        <h4 className="text-center">Możesz tu dodać nową usterkę wraz z poradami:</h4>
+                        <h5 className="text-center margin-bottom-6percent">(*) - Pola obowiązkowe</h5>
                         <div className="shadow margin-40px button-small-radius container col-lg-12 col-md-12 col-sm-12">
                             <div className="col-lg-2 col-md-1 col-sm-12"></div>
                             <div className="margin-top-20px margin-bottom-20px col-lg-8 col-md-10 col-sm-12">
-                                <input type="text" className="search-input input-big-80 input-style2-secondary input-small-radius input-font-teritary input-placeholder-teritary" placeholder="Tytuł usterki" onChange={(e) => this.props.handleTitle(e)} onFocus={() => document.getElementById('title').style.display = "block"}></input>
+                                <input type="text" className="search-input input-big-80 input-style2-secondary input-small-radius input-font-teritary input-placeholder-teritary" placeholder="Tytuł usterki*" onChange={(e) => this.props.handleTitle(e)} onFocus={() => document.getElementById('title').style.display = "block"}></input>
                                 <h6 id="title" className="text-center input-font-error" style={{display: "none"}}>{this.props.tipsForm.titleValidation ? '' : 'Tytuł musi zawierać co najmniej 5 znaków!'}</h6>
                             </div>
                             <div className="col-lg-2 col-md-1 col-sm-12"></div>
